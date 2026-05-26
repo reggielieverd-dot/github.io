@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Projects</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f37020;
+            font-family: "Baskerville", serif;
+            color: black;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 15vh;
+            font-size: 48px;
+        }
+
+        .client-list {
+            margin-top: 40px;
+        }
+
+        .client-list a {
+            display: block;
+            margin: 15px 0;
+            font-size: 24px;
+            color: black;
+            text-decoration: none;
+            opacity: 0.9;
+        }
+
+        .client-list a:hover {
+            opacity: 1;
+        }
+
+        a.back {
+            display: block;
+            margin-top: 40px;
+            color: black;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Client Projects</h1>
+
+    <div class="client-list">
+        <a href="/client-a.html">Client A</a>
+        <a href="/client-b.html">Client B</a>
+        <a href="/client-c.html">Client C</a>
+    </div>
+
+    <a href="/" class="back">← Back to Home</a>
+
+</body>
+</html>
