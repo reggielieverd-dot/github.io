@@ -1,8 +1,0 @@
-/client-a.html
-  Basic-Auth: ClientA:PasswordA
-
-/client-b.html
-  Basic-Auth: ClientB:PasswordB
-
-/client-c.html
-  Basic-Auth: ClientC:PasswordC
