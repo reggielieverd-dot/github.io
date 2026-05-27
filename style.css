@@ -1,0 +1,108 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f37020; /* Your orange */
+    color: white;
+    font-family: "Baskerville", "Libre Baskerville", serif;
+    text-align: center;
+}
+
+/* CLIENT LOGIN */
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 9999; /* ensures the button is clickable */
+}
+
+.login-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.login-link:hover {
+    opacity: 1;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column; /* vertical stacking */
+    align-items: center;    /* center horizontally */
+    gap: 2vw;               /* responsive spacing */
+}
+
+.hero-logo {
+    width: 40vw;        /* scaled-down logo */
+    max-width: 400px;   /* cap on large screens */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-size: 3vw; /* reduced to match email font size */
+    margin: 0;
+}
+
+.subtitle-2 {
+    font-size: 2.8vw;
+    margin-top: 1em;
+    letter-spacing: 0.1vw;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+    .hero-content {
+        gap: 4vw; /* more breathing room on phones */
+    }
+
+    .hero-logo {
+        width: 55vw;      /* slightly larger on mobile */
+        max-width: 300px;
+    }
+
+    .subtitle {
+        font-size: 6vw;
+    }
+}
+
+/* CONTACT SECTION */
+.contact {
+    margin: 40px 0;
+}
+
+.contact h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+    margin-bottom: 40px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* DESKTOP‑ONLY: smaller subtitle */
+@media (min-width: 1024px) {
+    .subtitle {
+        font-size: 1.8vw;
+    }
+}
