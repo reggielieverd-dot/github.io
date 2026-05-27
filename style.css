@@ -39,7 +39,7 @@ header {
     display: flex;
     flex-direction: column; /* vertical stacking */
     align-items: center;    /* center horizontally */
-    gap: 2vw;               /* responsive spacing */
+    gap: 1vw;               /* responsive spacing */
 }
 
 .hero-logo {
