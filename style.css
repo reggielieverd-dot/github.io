@@ -8,6 +8,16 @@ body {
     text-align: center;
 }
 
+a {
+    color: #f37020;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
 /* CLIENT LOGIN */
 header {
     position: absolute;
@@ -115,4 +125,3 @@ footer {
         font-size: 1.8vw;
     }
 }
- 
